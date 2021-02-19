@@ -11,14 +11,14 @@ This is the first version and is attempting to allow a series of variables to be
 3. IAM policy actions attached to user/s role 
 4. IAM policy resources attached to user/s role
 
-Could it have been written better? Most definitely. 
-Does it work for what I need to use it for? Yes it does. 
-Am I going to improve? At some point, yes. 
+- Could it have been written better? Most definitely. 
+- Does it work for what I need to use it for? Yes it does. 
+- Am I going to improve? At some point, yes. 
 
 The version of Terraform used is 0.14.2. 
 
 
-##List of variables
+## List of variables
 
 The following are used in the sftp user module:
 
