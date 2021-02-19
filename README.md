@@ -17,9 +17,8 @@ Am I going to improve? At some point, yes.
 
 The version of Terraform used is 0.14.2. 
 
-=================
-List of variables
-=================
+
+##List of variables
 
 The following are used in the sftp user module:
 
