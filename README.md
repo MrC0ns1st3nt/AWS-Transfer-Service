@@ -23,13 +23,13 @@ List of variables
 
 The following are used in the sftp user module:
 
-for_each = Paired with sftp-user when passing more than one user name
-s3-bucket = The variable for the S3-bucket used as default by the SFTP service.
-s3-bucketlist = This is used by the SFTP user module when creating the IAM policy. In my usage case it is the same as the s3-bucket variable. 
-s3-actions = This is used to overwrite the default readonly provided to the sftp user. (Optional)
-sftp-user = Create a single user or mutliple users with the same permissions. Paired with for_each. Defaults to test user if not present
-s3-prefix = This builds the IAM policy attached to the sftp user role. Format is <bucketname/prefix>
-sftp-home-directory = Specify the bucket prefix or leave blank for bucket level
+- for_each = Paired with sftp-user when passing more than one user name
+- s3-bucket = The variable for the S3-bucket used as default by the SFTP service.
+- s3-bucketlist = This is used by the SFTP user module when creating the IAM policy. In my usage case it is the same as the s3-bucket variable. 
+- s3-actions = This is used to overwrite the default readonly provided to the sftp user. (Optional)
+- sftp-user = Create a single user or mutliple users with the same permissions. Paired with for_each. Defaults to test user if not present
+- s3-prefix = This builds the IAM policy attached to the sftp user role. Format is <bucketname/prefix>
+- sftp-home-directory = Specify the bucket prefix or leave blank for bucket level
 
 
 
